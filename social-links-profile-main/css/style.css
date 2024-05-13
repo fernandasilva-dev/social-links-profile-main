@@ -10,56 +10,75 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    margin: 100px auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.person{
+    justify-items: center;
+}
+
 .avatar{
     height: 100px;
     border-radius: 50px;
+    display: block;
+    margin: auto;
 }
 
-.name{
-
+h1.name{
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    padding: 20px 0px 0px 0px;
 }
 
-.local{
-
-}
-
-.phrase{
-
-}
-
-p.phrase{
+p.local{
     color: hsl(75, 94%, 57%);
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px 0px 0px;
     font-size: 14px;
 }
 
+p.phrase{
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+    padding: 30px 0px 10px;
 
-ul{
-    list-style: none;
 }
 
-
+.links{
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+}
 
 a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
 
-.container{
-    background-color: hsl(0, 0%, 12%);
-    border-radius: 15px;
-    height: 500px;
-}
-
-.bottons-links{
+ul .bottons-links{
     height: 20px;
     background-color: hsl(0, 0%, 20%) ;
     border-radius: 6px;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    padding: 20px 90px;
+    margin: 15px 0px;
+    align-items: center;
 }
 
 .bottons-links:hover{
     background-color: hsl(75, 94%, 57%);
-}
-
-.links{
-    height: 20px;
 }
